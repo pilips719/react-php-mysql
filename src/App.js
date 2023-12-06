@@ -3,7 +3,7 @@ import axios from "axios";
 import './App.css';
 
 function App() {
-  const [person, setPerson] = useState({
+  const [person, setPerson] = useState({ 
     firstName: "",
     lastName: "",
     mission: "",
